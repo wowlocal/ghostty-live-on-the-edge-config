@@ -21,6 +21,9 @@ keybind = alt+j=goto_split:down
 keybind = alt+h=goto_split:left
 keybind = alt+l=goto_split:right
 
+keybind = ctrl+alt+n=scroll_page_fractional:0.5
+keybind = ctrl+alt+p=scroll_page_fractional:-0.5
+
 keybind = cmd+shift+n=toggle_quick_terminal
 
 auto-update-channel = tip
@@ -32,4 +35,3 @@ shell-integration-features = no-cursor
 
 # Disable close confirmation even if Ghostty thinks a process is running
 confirm-close-surface = false
-
